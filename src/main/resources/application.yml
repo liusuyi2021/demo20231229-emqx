@@ -1,0 +1,13 @@
+mqtt:
+  protocol: tcp
+  host: 192.168.2.15 # Example: 192.168.1.1
+  port: 11883   #6001  1883
+  username: admin
+  password: xzx12345
+  client-id: 227
+  # Topics that need to be subscribed when initially connecting to mqtt, multiple topics are divided by ",".
+  topic: topic1,topic2
+
+logging:
+  level:
+    com.example.Demo20231229EmqxApplicationTests: debug
